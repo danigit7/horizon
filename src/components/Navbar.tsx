@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
-import gocLogo from '../../assets/horizonLogo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,7 +63,7 @@ const Navbar = () => {
             className="flex-shrink-0 cursor-pointer"
             onClick={() => scrollToSection('home')}
           >
-            <motion.img src={gocLogo} alt="horizonLogo" className="h-24 w-24 md:h-28 md:w-28 rounded-full object-contain" />
+            <motion.img src="/assets/horizonLogo.png" alt="horizonLogo" className="h-24 w-24 md:h-28 md:w-28 rounded-full object-contain" />
           </motion.div>
 
           {/* Desktop Navigation */}
