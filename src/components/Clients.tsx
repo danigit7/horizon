@@ -54,7 +54,7 @@ const Clients = () => {
                 x: {
                   repeat: Infinity,
                   repeatType: "loop",
-                  duration: 60,
+                  duration: 180,
                   ease: "linear",
                 },
               }}
